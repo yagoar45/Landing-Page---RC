@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"  type="text/css" href="/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://storage.builderall.com//franquias/2/6202195/editor-html/7986873.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <title> ROYAL PRESTIGE </title>
+  </head>
+  <body>
+    <section>
+        <div class="circle">
+
+        </div>
+      <header>
+        <a href="#">
+          <img
+            class="logo"
+            src="../img/royal-prestige-logo-66814DC34E-seeklogo.com.png"
+          />
+        </a>
+        <ul>
+        </ul>
+      </header>
+
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            Não é apenas uma panela
+            <br />
+            É
+            <span> ROYAL PRESTIGE</span>
+          </h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            sapiente fugiat delectus laborum sit similique ratione unde corrupti
+            suscipit atque. Inventore ullam mollitia, voluptatem expedita
+            pariatur aspernatur necessitatibus voluptas adipisci.
+          </p>
+
+          <a href="#">Consulte o nosso vendedor</a>
+        </div>
+        <div class="imgBox">
+          <img src="../img/img1.jpg" class="starbucks" />
+        </div>
+      </div>
+
+      <ul class="thumb">
+        <li><img src="../img/img1.jpg" onclick ="imgSlider('../img/img1.jpg')" /></li>
+        <li><img src="../img/img2.png" onclick ="imgSlider('../img/img2.png')"/></li>
+        <li><img src="../img/img3.jpg" onclick ="imgSlider('../img/img3.jpg')"/></li>
+      </ul>
+
+      <ul class="sci">
+        <li>
+          <a href="linkFacebok"><img src="../img/insta.svg" /></a>
+        </li>
+        <li>
+          <a href="linkWhatsapp"><img src="../img/face2.png" /></a>
+        </li>
+        <li>
+          <a href="linkInstagram"><img src="../img/whats3.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <script type = "text/javascript">
+        function imgSlider(anything){
+            document.querySelector(".starbucks").src = anything;
+        }
+    </script>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    
+    section {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+    }
+    
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        padding: 20px 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .logo {
+        position: relative;
+        max-width: 80px;
+    }
+    
+    header ul {
+        position: relative;
+        display: flex;
+    }
+    
+    header ul li {
+        list-style: none;
+    }
+    
+    header ul li a {
+        display: inline-block;
+        color: #333;
+        font-weight: 400;
+        margin-left: 40px;
+        text-decoration: none;
+    }
+    
+    .content {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content .textBox {
+        position: relative;
+        max-width: 680px;
+    }
+    
+    .content .textBox h2 {
+        color: #333;
+        font-size: 3.5em;
+        line-height: 1.4em;
+        font-weight: 500;
+    }
+    
+    .content .textBox h2 span {
+        color: #07386d;
+        font-size: 1.2em;
+    }
+    
+    .content .textBox p {
+        color: #333;
+    }
+    
+    
+    .content .textBox a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 8px 20px;
+        background: #07386d;
+        color: white;
+        border-radius: 40px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-decoration: none;
+    }
+    
+    .content .imgBox {
+        width: 100px;
+        height: 280px;
+        margin-left: 240px;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 50px;
+        margin-top: 50px;
+    }
+    
+    .content .imgBox img {
+        max-width: 480px;
+        max-height: 600px;
+        border-radius: 20px;
+    }
+    
+    .thumb {
+        position: absolute;
+        left: 45%;
+        bottom: 20px;
+        transform: translateY(-50%);
+        display: flex;
+    }
+    
+    .thumb li {
+        list-style: none;
+        display: inline-block;
+        margin: 0;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    .thumb li:hover {
+        transform: translateY(-15px);
+    }
+    
+    .thumb li img {
+        max-width: 60px;
+        border-radius: 20px;
+    }
+    
+    .sci {
+        position: relative;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .sci li{
+        list-style:none;
+        margin-right: -200px;
+    }
+    
+    .sci li a{
+        display: inline-block;
+        margin: 10px -40px;
+        transform: scale(0.6);
+        filter: invert(1);
+    }
+    
+    .sci li a img{
+        width: 40px;
+    }
+    
+    .circle{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #07386d;
+        clip-path: circle(600px at right 720px);
+    }
+    </style>
+  </body>
+</html>
