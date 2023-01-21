@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background: linear-gradient(#0059B8, black) no-repeat;
+}
+
+/*============================================ MENU =============================================*/
+
+nav {
+    background-color: rgb(77, 64, 64);
+    overflow: hidden;
+    position: fixed;
+    height: 15%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+nav a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.titulo {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.logo img {
+    width: 65px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.insta img,
+.wpp img {
+    width: 32px;
+    margin: 0 10px;
+    gap: 100000px;
+}
+
+/*============================================ PRODUTO 1 =============================================*/
+
+.produto1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.produto1 img {
+    margin-top: 150px;
+    width: 80%;
+    height: 45%;
+}
+
+.produto1 h2 {
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.produto1 h2:hover {
+    cursor: pointer;
+    transition: 450ms linear;
+    scale: 1.14;
+}
+
+.produto8 p {
+    font-size: 14px;
+    width: 500px;
+}
+
+.produtos1e2,
+.produtos3e4,
+.produtos5e6,
+.produtos7e8,
+.produtos9e10 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+/*============================================ PRODUTO 2 =============================================*/
+.produto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.produto2 img {
+    margin-top: 150px;
+    width: 80%;
+    height: 45%;
+}
+
+.produto2 h2 {
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.produto2 h2:hover {
+    cursor: pointer;
+    transition: 450ms linear;
+    scale: 1.14;
+}
+
+.produto2 p {
+    font-size: 14px;
+    width: 500px;
+}
+.descripProduto1,
+.descripProduto2,
+.descripProduto3,
+.descripProduto4,
+.descripProduto5,
+.descripProduto6,
+.descripProduto7,
+.descripProduto8,
+.descripProduto9,
+.descripProduto10 {
+    color: white;
+}
+
+
+/*============================================= PRODUTO 3 ===========================================================*/
+
+.produto3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.produto3 img {
+    margin-top: 150px;
+    width: 80%;
+    height: 45%;
+}
+
+.produto3 h2 {
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.produto3 h2:hover {
+    cursor: pointer;
+    transition: 450ms linear;
+    scale: 1.14;
+}
+
+.produto3 p {
+    font-size: 14px;
+    width: 500px;
+}
+
+/*============================================= PRODUTO 4 ===========================================================*/
+
+.produto4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.produto4 img {
+    margin-top: 150px;
+    width: 80%;
+    height: 45%;
+}
+
+.produto4 h2 {
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.produto4 h2:hover {
+    cursor: pointer;
+    transition: 450ms linear;
+    scale: 1.14;
+}
+
+.produto4 p {
+    font-size: 14px;
+    width: 500px;
+}
+
+
+/*============================================= PRODUTO 5 ===========================================================*/
+.produto5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.produto5 img {
+    margin-top: 150px;
+    width: 80%;
+    height: 45%;
+}
+
+.produto5 h2 {
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.produto5 h2:hover {
+    cursor: pointer;
+    transition: 450ms linear;
+    scale: 1.14;
+}
+
+.produto5 p {
+    font-size: 14px;
+    width: 500px;
+}
+
+/*============================================= PRODUTO 6 ===========================================================*/
+.produto6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.produto6 img {
+    margin-top: 150px;
+    width: 80%;
+    height: 45%;
+}
+
+.produto6 h2 {
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.produto6 h2:hover {
+    cursor: pointer;
+    transition: 450ms linear;
+    scale: 1.14;
+}
+
+.produto6 p {
+    font-size: 14px;
+    width: 500px;
+}
+
+/*============================================= CTA PARA PRODUTOS ===================================================*/
+.adquiraNossoProdutos{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.texto{
+    color: white;
+    width: 600px;
+}
+
+.ctaCompra{
+    background-color: green;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+    width: 450px;
+    margin-left: 70px;
+}
+
+.ctaCompra:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 400ms linear;
+}
+/*============================================= PRODUTO 7 ===========================================================*/
+.produto7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.produto7 img {
+    margin-top: 150px;
+    width: 80%;
+    height: 45%;
+}
+
+.produto7 h2 {
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.produto7 h2:hover {
+    cursor: pointer;
+    transition: 450ms linear;
+    scale: 1.14;
+}
+
+.produto7 p {
+    font-size: 14px;
+    width: 500px;
+}
+
+/*============================================= PRODUTO 8 ===========================================================*/
+.produto8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.produto8 img {
+    margin-top: 150px;
+    width: 80%;
+    height: 45%;
+}
+
+.produto8 h2 {
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.produto8 h2:hover {
+    cursor: pointer;
+    transition: 450ms linear;
+    scale: 1.14;
+}
+
+.produto8 p {
+    font-size: 14px;
+    width: 500px;
+}
+/*============================================= PRODUTO 9 ===========================================================*/
+.produto9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.produto9 img {
+    margin-top: 150px;
+    width: 80%;
+    height: 45%;
+}
+
+.produto9 h2 {
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.produto9 h2:hover {
+    cursor: pointer;
+    transition: 450ms linear;
+    scale: 1.14;
+}
+
+.produto9 p {
+    font-size: 14px;
+    width: 500px;
+}
+/*============================================= PRODUTO 10 ===========================================================*/
+.produto10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.produto10 img {
+    margin-top: 150px;
+    width: 80%;
+    height: 45%;
+}
+
+.produto10 h2 {
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+.produto10 h2:hover {
+    cursor: pointer;
+    transition: 450ms linear;
+    scale: 1.14;
+}
+
+.produto10 p {
+    font-size: 14px;
+    width: 500px;
+}
+/*============================================= TRABALHE CONOSCO =====================================================*/
+.trabalheConosco{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.textoTrabalho{
+    color: white;
+    width: 600px;
+}
+
+.ctaTrabalho{
+    background-color: green;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+    width: 450px;
+    margin-left: 70px;
+}
+
+.ctaTrabalho:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 400ms linear;
+}
+
+em{
+    text-decoration: underline;
+}
